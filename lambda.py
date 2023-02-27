@@ -8,3 +8,9 @@ print(new_list)
 new_list = list(map(lambda x:(x*2),my_list))
 print(new_list)
 
+print(dir(math))
+print(math.__loader__)
+
+string1: str = 'asdfgh'
+print(list(string1))
+print('sass' in 'dcfdffd')
