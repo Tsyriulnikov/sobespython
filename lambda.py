@@ -14,3 +14,9 @@ print(math.__loader__)
 string1: str = 'asdfgh'
 print(list(string1))
 print('sass' in 'dcfdffd')
+
+#
+string = "Skillbox курс 2018"
+no_blanks = "".join([s for s in string if not s.isdigit()])
+no_blanks.strip()
+print(no_blanks)
